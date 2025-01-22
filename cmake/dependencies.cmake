@@ -52,7 +52,7 @@ if(NOT TARGET spdlog::spdlog)
     FetchContent_Declare(
         spdlog
         GIT_REPOSITORY https://github.com/gabime/spdlog.git
-        GIT_TAG 27cb4c76708608465c413f6d0e6b8d99a4d84302 # v1.14.1
+        GIT_TAG 8e5613379f5140fefb0b60412fbf1f5406e7c7f8 # v1.15.0
     )
     set(SPDLOG_INSTALL
         ON
